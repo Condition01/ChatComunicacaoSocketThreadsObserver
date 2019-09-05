@@ -38,8 +38,6 @@ public class TrataCliente implements Runnable, Subject{
 	
 	public String ler() {
 		String line = null;
-
-		
 		try {
 			//InputStream in = cliente.getInputStream();
 			InputStream in = cliente.getInputStream();
